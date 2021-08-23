@@ -11,12 +11,12 @@ import { Blog } from "./blog/Blog";
 function App() {
   return (
     <>
-      {/* <SignIn />
+      <SignIn />
       <SignUp />
       <SignInSide />
       <SignUpSide />
       <Pricing />
-      <Album /> */}
+      <Album />
       <Blog />
       <StickyFooter />
     </>
