@@ -55,6 +55,7 @@ const Sidebar = (props) => {
   );
 };
 
+
 Sidebar.propTypes = {
   archives: PropTypes.array,
   description: PropTypes.string,
