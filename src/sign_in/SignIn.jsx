@@ -14,7 +14,6 @@ import {
   Container,
 } from "@material-ui/core";
 import useStyles from "./signInStyles";
-import { Header } from "../blog/Header";
 
 function Copyright() {
   return (
@@ -29,22 +28,10 @@ function Copyright() {
   );
 }
 
-const signinsections = [
-  { title: "Simple Sign up", url: "/signup" },
-  { title: "User Sign-in", url: "/signinside" },
-  { title: "Cool Sign-up", url: "/signupside" },
-  { title: "Pricing", url: "/pricing" },
-  { title: "Gallary", url: "/album" },
-  { title: "Blog", url: "/blog" },
-  { title: "Contact", url: "footer" },
-];
-
 export const SignIn = () => {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="xs">
-      <Header title="Sign-in" sections={signinsections} />
-
       <CssBaseline />
       <div className={classes.paper}>
         <Avatar className={classes.avatar}>
