@@ -15,7 +15,7 @@ import { Header } from "./Header";
 import Sidebar from "./Sidebar";
 
 const sections = [
-  { title: "Technology", url: "#" },
+  { title: "Technology", url: "/signin" },
   { title: "Design", url: "#" },
   { title: "Culture", url: "#" },
   { title: "Business", url: "#" },

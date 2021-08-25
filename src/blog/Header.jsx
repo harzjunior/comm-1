@@ -27,7 +27,7 @@ export const Header = (props) => {
           <SearchIcon />
         </IconButton>
         <Button variant="outlined" size="small">
-          Sign up
+          <Link href={"/signup"}> Sign up</Link>
         </Button>
       </Toolbar>
       <Toolbar

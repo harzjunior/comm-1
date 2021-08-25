@@ -8,7 +8,7 @@ import {
   Typography,
   CssBaseline,
   Grid,
-  Card,  
+  Card,
   Container,
   AppBar,
   Toolbar,
@@ -146,7 +146,7 @@ export const Pricing = () => {
             </Link>
           </nav>
           <Button
-            href="#"
+            href="/signin"
             color="primary"
             variant="outlined"
             className={classes.link}

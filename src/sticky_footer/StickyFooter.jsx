@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, CssBaseline, Link, Typography } from "@material-ui/core";
+import { Container, CssBaseline, Typography } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import useStyles from "./stickyFooterStyles";
 
 function Copyright() {
@@ -29,7 +30,10 @@ export const StickyFooter = () => {
           {"Pin a footer to the bottom of the viewport."}
           {"The footer will move as the main element of the page grows."}
         </Typography>
-        <Typography variant="body1">Sticky footer placeholder.</Typography>
+        <Typography variant="body1">
+          Sticky footer placeholder...
+          <Link to="/signin"> Back to Sign In</Link>
+        </Typography>
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
