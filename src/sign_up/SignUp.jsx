@@ -120,7 +120,7 @@ export const SignUp = () => {
         <Box mt={5}>
           <Copyright />
           <Typography variant="body1">
-            <Link href="/blog"> Back to Blog</Link>
+            <Link to="/blog"> Back to Blog</Link>
           </Typography>
         </Box>
       </Container>
