@@ -20,7 +20,7 @@ const sections = [
   { title: "Bootstrap 5", url: "https://getbootstrap.com/" },
   { title: "jQuerry", url: "https://jquery.com" },
   { title: "Vue.js", url: "https://vuejs.org/" },
-  { title: "Git", url: "https://git-scm.com/" },
+  { title: "Tailwind", url: "https://tailwindcss.com/" },
   { title: "Node.js", url: "https://nodejs.org/" },
   { title: "Html 5", url: "https://www.w3schools.com/html/" },
   {
@@ -91,7 +91,7 @@ export const Blog = () => {
     <>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Be Current with Latest Languages" sections={sections} />
+        <Header title=" " sections={sections} />
         <main>
           <MainFeaturedPost
             post={mainFeaturedPost}

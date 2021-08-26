@@ -30,7 +30,7 @@ export const Header = (props) => {
           noWrap
           className={classes.toolbarTitle}
         >
-          {title}
+          {/* {title} */}
         </Typography>
         <IconButton>
           <SearchIcon />
